@@ -1,0 +1,26 @@
+
+> food-app@0.0.0 ng D:\angular projects\food-app
+> ng "s" "__design__" "--port" "5678"
+
+
+chunk {main} main.js, main.js.map (main) 2.38 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 1.24 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 768 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 339 kB [initial] [rendered]
+Date: 2020-09-29T15:50:27.335Z - Hash: b5b7806650e7527ccb48 - Time: 14662ms
+
+ERROR in ./.design/main.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: D:\angular projects\food-app\.design\main.ts is missing from the TypeScript compilation. Please make sure it is in your tsconfig via the 'files' or 'include' property.
+    at AngularCompilerPlugin.getCompiledFile (D:\angular projects\food-app\node_modules\@ngtools\webpack\src\angular_compiler_plugin.js:949:23)
+    at D:\angular projects\food-app\node_modules\@ngtools\webpack\src\loader.js:43:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+ERROR in ./.design/polyfills.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: D:\angular projects\food-app\.design\polyfills.ts is missing from the TypeScript compilation. Please make sure it is in your tsconfig via the 'files' or 'include' property.
+    at AngularCompilerPlugin.getCompiledFile (D:\angular projects\food-app\node_modules\@ngtools\webpack\src\angular_compiler_plugin.js:949:23)
+    at D:\angular projects\food-app\node_modules\@ngtools\webpack\src\loader.js:43:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+** Angular Live Development Server is listening on localhost:5678, open your browser on http://localhost:5678/ **
